@@ -1,0 +1,33 @@
+# ---- Python ----
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+env/
+
+# ---- 构建产物 ----
+*.exe
+*.spec
+build/
+dist/
+*.manifest
+
+# ---- 运行时数据（实际在 %LOCALAPPDATA%\AutoFish\，这里防误提交）----
+hits/
+hits.csv
+autofish.json
+autofish.log
+crash.log
+template.wav
+
+# ---- WorkBuddy / 编辑器 ----
+.workbuddy/
+.idea/
+.vscode/
+*.swp
+.DS_Store
+
+# ---- 内部开发文档（不公开）----
+自动钓鱼功能实现分析.md
+自动钓鱼误触发_诊断与改进方案.md
